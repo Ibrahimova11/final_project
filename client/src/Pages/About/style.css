@@ -1,0 +1,148 @@
+.aboutCard h4 {
+    color: #31b675;
+  }
+  .aboutCard h1 {
+    font-size: 35px;
+    font-weight: 100;
+  }
+  .aboutCard h1 span {
+    font-weight: bold;
+  }
+  .aboutCard p {
+    margin-top: 20px;
+    font-weight: 300;
+  }
+  .aboutCard .row1 {
+    padding-right: 30px;
+  }
+  .aboutCard .row.image,
+  .aboutCard .image {
+    position: relative;
+  }
+  .aboutCard .control-btn button {
+    left: 40%;
+  }
+  .aboutCard .control-btn i {
+    font-size: 20px;
+  }
+  .aboutCard .image::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 101%;
+    height: 53vh;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+
+  .features .flex_space {
+    flex-direction: row-reverse;
+  }
+  .features img {
+    width: 90%;
+  }
+  .features .control-btn,
+  .features .image::after,
+  .features .image::before,
+  .features .control-btn::before {
+    display: none;
+  }
+  .features h1 {
+    font-weight: bold;
+  }
+  .features h1 span {
+    color: #31b675;
+    
+  }
+  @media screen and (max-width: 768px) {
+    .features .flex_space,
+    .aboutCard {
+      flex-direction: column;
+    }
+    .aboutCard .image::after,
+    .aboutCard .image::before,
+    .aboutCard .control-btn::before {
+      display: none;
+    }
+    .aboutCard .row {
+      width: 100%;
+    }
+    .aboutCard .image {
+      margin-top: 50px;
+    }
+    .aboutCard img {
+      width: 100%;
+    }
+  }
+
+
+  .image-heading {
+    background-image: url("https://rainbowdesign.in/themes/Stetho/img/bg/inner-banner-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 30vh;
+    line-height: 30vh;
+    position: relative;
+    z-index: -2;
+    
+  }
+  .image-heading .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  .image-heading::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    height: 30vh;
+    width: 100%;
+    z-index: -1;
+  }
+  .image-heading h1 {
+    font-size: 40px;
+    text-transform: capitalize;
+  }
+  .image-heading button {
+    background: black;
+    color: white;
+    font-weight: 400;
+    padding: 15px 30px;
+    word-spacing: 5px;
+  }
+  .image-heading a {
+    color: #31b675;
+    cursor: pointer;
+  }
+  .image-heading span {
+    text-transform: capitalize;
+    word-spacing: 30px;
+  }
+
+  .secondary-btn {
+    padding: 14px 32px;
+    background-color: #31b675;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  .outline-btn {
+    padding: 12px 30px;
+    background-color: #fff;
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 20px;
+    border: 2px solid #000;
+  }
+  .secondary-btn i {
+    margin: 7px 0 0 10px;
+  }
+  

@@ -5,7 +5,9 @@ const Index = () => {
     <div>
     
     <Hotel/>
-    
+
+
+      
     </div>
   )
 }
