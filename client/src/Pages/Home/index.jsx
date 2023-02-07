@@ -1,4 +1,5 @@
 import React from 'react'
+import DestinationHome from '../../Components/HomeSelection/DestinationHome/DestinationHome'
 import Hotel from "../../Components/HomeSelection/Hotel"
 const Index = () => {
   return (
@@ -44,7 +45,7 @@ const Index = () => {
     </div>
   </section>
 
-      
+      <DestinationHome/>
     </div>
   )
 }

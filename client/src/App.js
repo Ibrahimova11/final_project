@@ -5,7 +5,8 @@ import Home from "./Pages/Home";
 import "./App.css";
 import About from "./Pages/About";
 import Gallery from "./Pages/Gallery";
-import Destinations from "./Pages/Destinations"
+import Destinations from "./Pages/Destinations";
+import Detail from "./Pages/Detail"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/destinations" element={<Destinations/>} />
+        <Route path="/detail/:id" element={<Detail/>} />
       </Routes>
 
       <Footer />
