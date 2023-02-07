@@ -10,7 +10,7 @@ app.use(cors())
 
 
 const NitroSchema = new mongoose.Schema({
-    name1: String,
+    name1: String,   
     description: String,
     name2:String
     
