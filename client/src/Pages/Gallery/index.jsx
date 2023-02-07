@@ -4,7 +4,7 @@ import "./style.css"
 import GalleryData from "./GalleryData"
 import { Link, useLocation } from "react-router-dom"
 
-
+// Gallery page start
 const Index = () => {
     const location = useLocation();
   return (
