@@ -38,7 +38,7 @@ const Index = () => {
               <i className='fas fa-long-arrow-alt-left'></i> Go Back
             </Link>
 
-            
+            {/* --------- main-content--------- */}
 
             <article className='content flex'>
               <div className='main-content'>
@@ -59,9 +59,9 @@ const Index = () => {
                 </div>
                 <p>{item.desc}</p>
               </div>
-              
+              {/* --------- main-content--------- */}
 
-              
+              {/* --------- side-content--------- */}
               <div className='side-content'>
                 <div className='box'>
                   <h2>How can we help you?</h2>
@@ -75,7 +75,7 @@ const Index = () => {
                   <p>{item.sidepara}</p>
                 </div>
               </div>
-             
+              {/* --------- side-content--------- */}
             </article>
           </div>
         </section>
